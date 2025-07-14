@@ -26,3 +26,101 @@ dev = [
     "ruff>=0.1.0",
     "black>=23.3.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.9",
+]
+
+
+
+[tool.ruff]
+# Set the minimum Python version to target for linting and formatting.
+target-version = "py310"
+
+# Exclude common directories from linting and formatting.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+line-length = 88
+indent-width = 4
+
+# Assume a `src` layout.
+src = ["app"]
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "W",  # pycodestyle warnings
+    "I",  # isort
+    "N",  # pep8-naming
+    "UP", # pyupgrade
+    "B",  # flake8-bugbear
+    "A",  # flake8-builtins
+    "C4", # flake8-comprehensions
+    "S",  # flake8-bandit
+    "T20",# flake8-print
+    "ANN",# flake8-annotations
+]
+
+# Disable a few rules that can be overly-strict or conflict with FastAPI patterns.
+ignore = [
+    "ANN101",  # Missing type annotation for `self` in method
+    "ANN102",  # Missing type annotation for `cls` in classmethod
+    "ANN401",  # Dynamically typed expressions (Any) are disallowed
+    "S101", # Use of `assert` detected
+]
+
+# Allow specific function calls in default arguments, which is common in FastAPI.
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Depends", "fastapi.Query", "fastapi.Header", "fastapi.Cookie", "fastapi.Body", "fastapi.Path", "fastapi.File", "fastapi.Form", "fastapi.Security"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"tests/*" = ["S101"]
+
+[tool.ruff.format]
+# Use double quotes for strings.
+quote-style = "double"
+
+# Use spaces for indentation.
+indent-style = "space"
+
+# Add a trailing comma to multi-line expressions.
+skip-magic-trailing-comma = false
+
+# Automatically format code snippets in docstrings.
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+[tool.ruff.lint.isort]
+# Combine "as" imports on the same line.
+combine-as-imports = true
+
+# Group imports into sections.
+force-sort-within-sections = true
+
+# Define the order of import sections.
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
