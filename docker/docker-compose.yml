@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  # ─────────────── FastAPI App ───────────────
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi-boilerplate
+    restart: always
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./:./ # Map your app code in
+      - ./.env:./.env # Map env vars
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # ─────────────── Postgres DB ───────────────
+  postgres:
+    image: postgres:14
+    container_name: fastapi-postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: fastapi
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+
+  # ─────────────── Redis ───────────────
+  redis:
+    image: redis:6.2.6
+    container_name: fastapi-redis
+    command: redis-server --port 6379
+    restart: always
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:
