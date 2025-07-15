@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from app.models.response import format_response
+from app.schemas.response import format_response
 import logging
 from app.redis.redis_instance import r
 
@@ -26,9 +26,10 @@ app = FastAPI()
 @app.on_event("startup")
 async def startup_event():
     # Database Migrations
-    migration()
+    if settings.MIGRATION:
+        migration()
     # flush Redis 
-    r.flushdb()
+    # r.flushdb()
     logger.info("Application is starting...")
 
 # Shutdown Event

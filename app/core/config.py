@@ -21,6 +21,7 @@ class Settings(BaseSettings):
 
     # Database
     DATABASE_URL: str
+    MIGRATION:bool
 
     # Email
     EMAIL_HOST: str

@@ -6,6 +6,7 @@ readme = "README.md"
 authors = [{name = "Don C John"}]
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.16.4",
     "bcrypt>=4.3.0",
     "fastapi[standard]>=0.115.12",
     "psycopg2-binary>=2.9.10",
