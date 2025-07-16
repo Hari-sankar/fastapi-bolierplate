@@ -1,6 +1,6 @@
-from fastapi import APIRouter, BackgroundTasks
-from app.models.auth import *
+from app.schemas.auth import *
 from app.services import auth_service
+from fastapi import APIRouter, BackgroundTasks
 
 router = APIRouter()
 

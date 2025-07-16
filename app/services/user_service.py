@@ -1,8 +1,8 @@
 import json
 from fastapi import HTTPException
 from app.db.session import get_db
-from app.models.user import *
-from app.models.response import format_response
+from app.schemas.user import *
+from app.schemas.response import format_response
 from app.redis.redis_instance import r
 
 def list_users(query_params: UserQueryParams):

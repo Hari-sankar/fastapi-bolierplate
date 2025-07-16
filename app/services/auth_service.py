@@ -1,6 +1,6 @@
 from app.db.session import get_db
-from app.models.auth import *
-from app.models.response import format_response
+from app.schemas.auth import *
+from app.schemas.response import format_response
 from app.utlis.email import forgot_pwd_email_content, invite_email_content, send_email
 from app.utlis.generateJwt import create_jwt_token,verify_jwt_token
 from app.utlis.verifyPwd import hash_password, verify_password

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from app.db.session import get_db
-from app.models.response import BaseResponse, format_response
+from app.schemas.response import BaseResponse, format_response
 
 router = APIRouter()
 

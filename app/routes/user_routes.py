@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
-from app.models.response import DataResponse
-from app.models.user import UserCreate, UserQueryParams, UserUpdate
+from app.schemas.response import DataResponse
+from app.schemas.user import UserCreate, UserQueryParams, UserUpdate
 from typing import List
 import app.services.user_service as user_service
 from app.redis.redis_instance import r
