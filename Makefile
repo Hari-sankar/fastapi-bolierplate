@@ -6,3 +6,10 @@ check:
 
 fix: 
 	uv run ruff check --fix
+
+migrate:
+	uv run alembic revision --autogenerate -m "$(msg)"
+
+upgrade: 
+	uv run alembic upgrade head
+	
