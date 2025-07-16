@@ -1,16 +1,18 @@
-import subprocess
-from app.db.session import get_db
 import logging
+import subprocess
+
+from app.db.session import get_db
+
 
 def migration():
     try:
-        logging.info("🚀 Starting database migration...")
+        logging.info("Starting database migration...")
         with get_db() as db:
             # Optional: check DB connection first
             try:
                 db.execute("SELECT 1")  # Connection check
                 logging.info(" DB connection successful.")
-            except OperationalError as conn_err:
+            except Exception as conn_err:
                 logging.error(f" Failed to connect to DB: {conn_err}")
                 return
 

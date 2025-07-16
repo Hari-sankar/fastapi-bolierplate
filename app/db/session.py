@@ -1,21 +1,26 @@
-from contextlib import contextmanager
-
-from app.core.config import Settings
-import psycopg2
+from psycopg2 import pool
 from psycopg2.extras import DictCursor
+from contextlib import contextmanager
+from app.core.config import Settings
 
 settings = Settings()
 
+connection_pool = pool.SimpleConnectionPool(
+    minconn=3,
+    maxconn=10,
+    dsn=settings.DATABASE_URL  
+)
+
 @contextmanager
 def get_db():
-    conn = psycopg2.pool.SimpleConnectionPool(minconn=3,maxconn=10,url=settings.DATABASE_URL)
-    cursor = conn.cursor(cursor_factory=DictCursor)
+    conn = connection_pool.getconn()  # get a connection from the pool
     try:
+        cursor = conn.cursor(cursor_factory=DictCursor)
         yield cursor
-    except Exception as error:
-        raise error
-    else:
         conn.commit()
+    except Exception as e:
+        conn.rollback()
+        raise e
     finally:
         cursor.close()
-        conn.close()
+        connection_pool.putconn(conn)  # ✅ return connection to the pool
