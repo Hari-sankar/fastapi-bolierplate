@@ -1,13 +1,14 @@
+from contextlib import contextmanager
+
+from app.core.config import Settings
 import psycopg2
 from psycopg2.extras import DictCursor
-from app.core.config import Settings
-from contextlib import contextmanager
 
 settings = Settings()
 
 @contextmanager
 def get_db():
-    conn = psycopg2.connect(settings.DATABASE_URL)
+    conn = psycopg2.pool.SimpleConnectionPool(minconn=3,maxconn=10,url=settings.DATABASE_URL)
     cursor = conn.cursor(cursor_factory=DictCursor)
     try:
         yield cursor
