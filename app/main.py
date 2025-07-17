@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from app.schemas.response import format_response
 import logging
+import time
 from app.redis.redis_instance import r
 
 from app.core.config import Settings
@@ -10,13 +11,14 @@ from app.db.migration import migration
 from app.routes.health_routes import router as health_router
 from app.routes.user_routes import router as user_router
 from app.routes.auth_routes import router as auth_router
+from app.core.logging import  get_logger, setup_logging
 
 
 # Loading Config
 settings = Settings()
 
 # Logging Config
-logging.basicConfig(level=logging.INFO)
+setup_logging()
 logger = logging.getLogger(__name__)
 
 # FastAPI Initialization
@@ -48,22 +50,70 @@ app.add_middleware(
 
 # Middleware for logging and error handling
 @app.middleware("http")
-async def middleware(request: Request, call_next):
-    # Logging request details
-    logger.info(f"Request from : {request.client}")
-    logger.info(f"End Point : {request.url}")
+async def log_requests(request: Request, call_next):
+    start_time = time.time()
     
-    response = await call_next(request)
+    client_host = request.client.host if request.client else "unknown"
+    method = request.method
+    path = request.url.path
+    query_params = str(request.query_params)
+    headers = dict(request.headers)
 
-    # Logging response details
-    logger.info(f"Response status code: {response.status_code}")
+    logger.info(
+        "HTTP Request",
+        extra={
+            "client_ip": client_host,
+            "method": method,
+            "path": path,
+            "query": query_params,
+            "headers": headers,
+        }
+    )
 
-    # Error Handling
-    if response.status_code >= 400:
-        if isinstance(response, JSONResponse):
-            logger.error(f"Error: {response.status_code} - {response.content.decode('utf-8')}")
-        else:
-            logger.error(f"Error: {response.status_code}")
+    try:
+        response: Response = await call_next(request)
+    except Exception as exc:
+        duration = round((time.time() - start_time) * 1000, 2)
+        logger.exception(
+            "Unhandled server error",
+            extra={
+                "method": method,
+                "path": path,
+                "duration_ms": duration,
+                "client_ip": client_host
+            }
+        )
+        
+
+    # Optional: read body only for JSON responses (for structured error logs)
+    body = None
+    if isinstance(response, JSONResponse):
+        try:
+            body = response.body.decode("utf-8")
+        except Exception:
+            body = "<unreadable>"
+
+    duration = round((time.time() - start_time) * 1000, 2)
+
+    log_level = "info"
+    if response.status_code >= 500:
+        log_level = "error"
+    elif response.status_code >= 400:
+        log_level = "warning"
+
+    logger.log(
+        level=getattr(logging, log_level.upper()),
+        msg="HTTP Response",
+        extra={
+            "status_code": response.status_code,
+            "duration_ms": duration,
+            "method": method,
+            "path": path,
+            "client_ip": client_host,
+            "response_body": body if response.status_code >= 400 else None,
+        }
+    )
+
     return response
 
 # Routes

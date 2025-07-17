@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     APP_NAME: str = "FastAPI-BoilerPlate"
     APP_ENV: str = "production"
     DEBUG: bool = False
+    STRUCTURED_LOGGING:bool= True
     ALLOWED_ORIGINS: List[str] = Field(default=["*"], alias="ALLOWED_ORIGINS")
 
     # Server Settings
