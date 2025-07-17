@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Request, HTTPException
+from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from app.schemas.response import format_response
@@ -21,12 +22,11 @@ settings = Settings()
 setup_logging()
 logger = logging.getLogger(__name__)
 
-# FastAPI Initialization
-app = FastAPI()
 
-# StartUp Event
-@app.on_event("startup")
-async def startup_event():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # StartUp Event
+
     # Database Migrations
     if settings.MIGRATION:
         migration()
@@ -34,10 +34,14 @@ async def startup_event():
     # r.flushdb()
     logger.info("Application is starting...")
 
-# Shutdown Event
-@app.on_event("shutdown")
-async def shutdown_event():
+    yield
+    # Shutdown Event
     logger.info("Application is shutting down...")
+
+
+# FastAPI Initialization
+app = FastAPI(lifespan=lifespan)
+
 
 # Add CORS middleware
 app.add_middleware(

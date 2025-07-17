@@ -16,8 +16,8 @@ services:
       - postgres
       - redis
     volumes:
-      - ./:./ # Map your app code in
-      - ./.env:./.env # Map env vars
+      - ./:/app
+      - ./.env:/.env # Map env vars
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
   # ─────────────── Postgres DB ───────────────

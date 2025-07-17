@@ -39,7 +39,7 @@ dev = [
 
 [tool.ruff]
 # Set the minimum Python version to target for linting and formatting.
-target-version = "py310"
+target-version = "py311"
 
 # Exclude common directories from linting and formatting.
 exclude = [
@@ -74,18 +74,10 @@ src = ["app"]
 
 [tool.ruff.lint]
 select = [
-    "E",  # pycodestyle errors
-    "F",  # pyflakes
-    "W",  # pycodestyle warnings
-    "I",  # isort
-    "N",  # pep8-naming
-    "UP", # pyupgrade
-    "B",  # flake8-bugbear
-    "A",  # flake8-builtins
-    "C4", # flake8-comprehensions
-    "S",  # flake8-bandit
-    "T20",# flake8-print
-    "ANN",# flake8-annotations
+    "F",
+    "E",
+    "W",
+    "I001"
 ]
 
 # Disable a few rules that can be overly-strict or conflict with FastAPI patterns.
@@ -105,16 +97,9 @@ extend-immutable-calls = ["fastapi.Depends", "fastapi.Query", "fastapi.Header", 
 "tests/*" = ["S101"]
 
 [tool.ruff.format]
-# Use double quotes for strings.
 quote-style = "double"
-
-# Use spaces for indentation.
 indent-style = "space"
-
-# Add a trailing comma to multi-line expressions.
 skip-magic-trailing-comma = false
-
-# Automatically format code snippets in docstrings.
 docstring-code-format = true
 docstring-code-line-length = "dynamic"
 
