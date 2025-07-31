@@ -8,5 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+.env/
+logs/app.log
 .env
 logs/app.log
