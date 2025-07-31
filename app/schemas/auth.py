@@ -1,5 +1,6 @@
-from app.shared.constants import *
 from pydantic import BaseModel, EmailStr, Field
+
+from app.shared.constants import *
 
 
 class LoginRequest(BaseModel):

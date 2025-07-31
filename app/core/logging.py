@@ -1,68 +1,106 @@
+# app/core/logging_config.py
+
 import logging
-import sys
+import logging.config
 import os
-from logging.handlers import RotatingFileHandler
-from pythonjsonlogger import jsonlogger
-from colorama import Fore, Style, init as colorama_init
+import sys
+
+import structlog
 
 from app.core.config import settings
 
-colorama_init(autoreset=True)
-
-LOG_LEVEL_COLORS = {
-    logging.DEBUG: Fore.CYAN,
-    logging.INFO: Fore.GREEN,
-    logging.WARNING: Fore.YELLOW,
-    logging.ERROR: Fore.RED,
-    logging.CRITICAL: Fore.MAGENTA + Style.BRIGHT,
-}
-
-LOG_FILE_PATH = "logs/app.log"
+LOG_FILE_PATH = settings.LOG_FILE
 MAX_LOG_SIZE = 10 * 1024 * 1024  # 10 MB
 BACKUP_COUNT = 5
 
-
-class ColoredFormatter(logging.Formatter):
-    def format(self, record):
-        color = LOG_LEVEL_COLORS.get(record.levelno, "")
-        message = super().format(record)
-        return f"{color}{message}{Style.RESET_ALL}"
-
-
 def setup_logging() -> None:
-    """Set up logging configuration."""
-    os.makedirs(os.path.dirname(LOG_FILE_PATH), exist_ok=True)
+    """
+    Set up unified logging configuration using structlog.
 
-    log_level = logging.DEBUG if settings.DEBUG else logging.INFO
-    log_format = "[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s"
-    date_format = "%Y-%m-%d %H:%M:%S"
+    Logs will only be written to LOG_FILE_PATH if settings.SAVE_LOG is True.
+    """
+    log_level = "DEBUG" if settings.DEBUG else "INFO"
 
-    root_logger = logging.getLogger()
-    root_logger.setLevel(log_level)
-    root_logger.handlers = []  # Reset handlers
+    # Define shared processors for structlog
+    shared_processors = [
+        structlog.stdlib.add_log_level,
+        structlog.stdlib.add_logger_name,
+        structlog.processors.TimeStamper(fmt="iso"),
+        structlog.processors.StackInfoRenderer(),
+        structlog.processors.format_exc_info,
+        structlog.stdlib.PositionalArgumentsFormatter(),
+    ]
 
-    # Console Handler
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_formatter = ColoredFormatter(log_format, datefmt=date_format)
-    console_handler.setFormatter(console_formatter)
-    root_logger.addHandler(console_handler)
+    # Configure structlog itself
+    structlog.configure(
+        processors=shared_processors + [
+            structlog.stdlib.ProcessorFormatter.wrap_for_formatter,
+        ],
+        logger_factory=structlog.stdlib.LoggerFactory(),
+        wrapper_class=structlog.stdlib.BoundLogger,
+        cache_logger_on_first_use=True,
+    )
 
-    # Rotating File Handler (Plain Text)
-    file_handler = RotatingFileHandler(LOG_FILE_PATH, maxBytes=MAX_LOG_SIZE, backupCount=BACKUP_COUNT)
-    file_formatter = logging.Formatter(log_format, datefmt=date_format)
-    file_handler.setFormatter(file_formatter)
-    root_logger.addHandler(file_handler)
+    # Determine the renderer based on whether structured logging is enabled
+    renderer = (
+        structlog.processors.JSONRenderer()
+        if settings.STRUCTURED_LOGGING
+        else structlog.dev.ConsoleRenderer(colors=True)
+    )
 
-    # JSON Logs (optional, useful for cloud logging systems)
-    if settings.STRUCTURED_LOGGING:
-        json_handler = logging.StreamHandler(sys.stdout)
-        json_formatter = jsonlogger.JsonFormatter(
-            fmt="%(asctime)s %(levelname)s %(name)s %(message)s",
-            datefmt=date_format
-        )
-        json_handler.setFormatter(json_formatter)
-        root_logger.addHandler(json_handler)
+    # Define the base logging configuration
+    logging_config = {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "default": {
+                "()": "structlog.stdlib.ProcessorFormatter",
+                "processor": renderer,
+                "foreign_pre_chain": shared_processors,
+            },
+        },
+        "handlers": {
+            "console": {
+                "class": "logging.StreamHandler",
+                "formatter": "default",
+                "stream": sys.stdout,
+            },
+        },
+        "loggers": {
+            # Root logger configuration
+            "": {"level": log_level, "propagate": True},
+            # Uvicorn loggers configuration
+            "uvicorn.access": {"level": log_level, "propagate": False},
+            "uvicorn.error": {"level": "ERROR", "propagate": False},
+            "uvicorn": {"level": log_level, "propagate": False},
+        },
+    }
+
+    # Define which handlers are active
+    active_handlers = ["console"]
+
+    # Conditionally add the file handler if SAVE_LOG is enabled
+    if settings.SAVE_LOG:
+        os.makedirs(os.path.dirname(LOG_FILE_PATH), exist_ok=True)
+        logging_config["handlers"]["file"] = {
+            "class": "logging.handlers.RotatingFileHandler",
+            "formatter": "default",
+            "filename": LOG_FILE_PATH,
+            "maxBytes": MAX_LOG_SIZE,
+            "backupCount": BACKUP_COUNT,
+        }
+        active_handlers.append("file")
+
+    # Apply the active handlers to all configured loggers
+    for logger_name in logging_config["loggers"]:
+        logging_config["loggers"][logger_name]["handlers"] = active_handlers
+
+    # Apply the final configuration
+    logging.config.dictConfig(logging_config)
 
 
-def get_logger(name: str) -> logging.Logger:
-    return logging.getLogger(name)
+def get_logger(name: str) -> structlog.stdlib.BoundLogger:
+    """
+    Get a structlog logger.
+    """
+    return structlog.get_logger(name)

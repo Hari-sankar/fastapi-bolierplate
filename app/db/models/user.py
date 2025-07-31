@@ -1,7 +1,8 @@
 
-from app.db.models.base import Base
 import sqlalchemy as sa
 from sqlalchemy import Boolean, Column, Integer, String
+
+from app.db.models.base import Base
 
 
 class User(Base):

@@ -3,21 +3,19 @@ name = "FastAPI-Boilerplate"
 version = "0.1.0"
 description = "Basic FastAPI Boilerplate"
 readme = "README.md"
-authors = [{name = "Don C John"}]
 requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.16.4",
     "bcrypt>=4.3.0",
-    "colorama>=0.4.6",
     "fastapi[standard]>=0.115.12",
     "psycopg2-binary>=2.9.10",
     "pydantic-settings>=2.9.1",
     "pydantic[email]>=2.11.4",
     "pyjwt>=2.10.1",
     "python-dotenv>=1.1.0",
-    "python-json-logger>=3.3.0",
     "redis>=6.1.0",
-    "resend>=2.9.0",
+    "structlog>=25.4.0",
+    "uvicorn>=0.34.2",
 ]
 
 [project.scripts]
@@ -25,9 +23,8 @@ demo-app = "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.4.0",
+    "pytest>=8.3.5",
     "ruff>=0.1.0",
-    "black>=23.3.0",
 ]
 
 [dependency-groups]
@@ -38,60 +35,30 @@ dev = [
 
 
 [tool.ruff]
-# Set the minimum Python version to target for linting and formatting.
 target-version = "py311"
-
-# Exclude common directories from linting and formatting.
-exclude = [
-    ".bzr",
-    ".direnv",
-    ".eggs",
-    ".git",
-    ".git-rewrite",
-    ".hg",
-    ".mypy_cache",
-    ".nox",
-    ".pants.d",
-    ".pytype",
-    ".ruff_cache",
-    ".svn",
-    ".tox",
-    ".venv",
-    "__pypackages__",
-    "_build",
-    "buck-out",
-    "build",
-    "dist",
-    "node_modules",
-    "venv",
-]
-
 line-length = 88
 indent-width = 4
+src = ["."]  # tells Ruff that `app` is your own code (first-party)
 
-# Assume a `src` layout.
-src = ["app"]
+# Optional: Exclude common virtualenv & build folders
+exclude = [
+    ".bzr", ".direnv", ".eggs", ".git", ".git-rewrite", ".hg", ".mypy_cache", ".nox",
+    ".pants.d", ".pytype", ".ruff_cache", ".svn", ".tox", ".venv", "__pypackages__",
+    "_build", "buck-out", "build", "dist", "node_modules", "venv","migrations"
+]
 
 [tool.ruff.lint]
 select = [
-    "F",
-    "E",
-    "W",
-    "I001"
+  "E", "W", "F", "I", "UP",   # Core: style, errors, sorting, upgrading
+  "B", "PL", "SIM",           # Bugs, pylint, simplify
+  "G", "LOG",                 # Logging rules
+  "C4", "Q", "PYI",           # Comprehensions, quotes, typing
+  "FA", "TID", "TCH",         # Future annotations, tidy imports
+  "RUF"                       # Ruff-specific rules
 ]
+ignore = ["SIM112", "G004", "PLR2004", "W293", "W291", "PLR0913"]
 
-# Disable a few rules that can be overly-strict or conflict with FastAPI patterns.
-ignore = [
-    "ANN101",  # Missing type annotation for `self` in method
-    "ANN102",  # Missing type annotation for `cls` in classmethod
-    "ANN401",  # Dynamically typed expressions (Any) are disallowed
-    "S101", # Use of `assert` detected
-]
-
-# Allow specific function calls in default arguments, which is common in FastAPI.
-[tool.ruff.lint.flake8-bugbear]
-extend-immutable-calls = ["fastapi.Depends", "fastapi.Query", "fastapi.Header", "fastapi.Cookie", "fastapi.Body", "fastapi.Path", "fastapi.File", "fastapi.Form", "fastapi.Security"]
-
+# Tell Ruff how to treat your files
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
 "tests/*" = ["S101"]
@@ -102,13 +69,3 @@ indent-style = "space"
 skip-magic-trailing-comma = false
 docstring-code-format = true
 docstring-code-line-length = "dynamic"
-
-[tool.ruff.lint.isort]
-# Combine "as" imports on the same line.
-combine-as-imports = true
-
-# Group imports into sections.
-force-sort-within-sections = true
-
-# Define the order of import sections.
-section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]

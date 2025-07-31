@@ -6,11 +6,11 @@ settings = Settings()
 class QueryBuilder:
     def __init__(self, table):
         self.table = table
-        self.query = ''
+        self.query = ""
         self.params = {}
     
     def reset(self):
-        self.query = ''
+        self.query = ""
         self.params = {}
     
     def execute(self):
@@ -27,7 +27,7 @@ class QueryBuilder:
     
     # WHERE Clause
     def where(self, **conditions):
-        if 'WHERE' not in self.query:
+        if "WHERE" not in self.query:
             self.query += " WHERE"
         else:
             self.query += " AND"
@@ -41,15 +41,15 @@ class QueryBuilder:
 
     # INSERT Query
     def insert(self, **values):
-        columns = ', '.join(values.keys())
-        placeholders = ', '.join([f"%{key}" for key in values.keys()])
+        columns = ", ".join(values.keys())
+        placeholders = ", ".join([f"%{key}" for key in values])
         self.query = f"INSERT INTO {self.table} ({columns}) VALUES ({placeholders})"
         self.params = values
         return self
     
     # UPDATE Query
     def update(self, **values):
-        set_clause = ', '.join([f"{key} = %{key}" for key in values.keys()])
+        set_clause = ", ".join([f"{key} = %{key}" for key in values])
         self.query = f"UPDATE {self.table} SET {set_clause}"
         self.params = values
         return self

@@ -1,7 +1,8 @@
 from typing import Any
 
-from app.shared.constants import RESPONSE_500
 from pydantic import BaseModel, Field
+
+from app.shared.constants import RESPONSE_500
 
 
 class BaseResponse(BaseModel):

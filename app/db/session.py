@@ -1,6 +1,8 @@
+from contextlib import contextmanager
+
 from psycopg2 import pool
 from psycopg2.extras import DictCursor
-from contextlib import contextmanager
+
 from app.core.config import Settings
 
 settings = Settings()
@@ -23,4 +25,4 @@ def get_db():
         raise e
     finally:
         cursor.close()
-        connection_pool.putconn(conn)  # ✅ return connection to the pool
+        connection_pool.putconn(conn) 

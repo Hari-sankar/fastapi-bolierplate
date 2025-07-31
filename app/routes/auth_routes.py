@@ -1,6 +1,7 @@
+from fastapi import APIRouter
+
 from app.schemas.auth import *
 from app.services import auth_service
-from fastapi import APIRouter, BackgroundTasks
 
 router = APIRouter()
 
@@ -9,17 +10,6 @@ async def login(loginRequest: LoginRequest):
     return await auth_service.login(loginRequest)
 
 @router.post("/signup")
-async def signup(userData: SignUpRequest, background_tasks: BackgroundTasks):
-    return await auth_service.signup(userData, background_tasks)
+async def signup(userData: SignUpRequest):
+    return await auth_service.signup(userData)
 
-@router.post("/signup/verify")
-async def verify_signup(verifyTokenRequest: VerifyTokenRequest):
-    return await auth_service.verify_signup(verifyTokenRequest)
-
-@router.post("/forgotPwd")
-async def forgot_password(resetPasswordRequest: ResetPasswordRequest, background_tasks: BackgroundTasks):
-    return await auth_service.forgot_password(background_tasks, resetPasswordRequest)
-
-@router.post("/forgotPwd/verify")
-async def verify_reset_token(passwordResetRequest: PasswordResetRequest):
-    return await auth_service.verify_reset_token(passwordResetRequest)

@@ -1,7 +1,28 @@
 from typing import Literal
 
-from app.shared.constants import *
 from pydantic import BaseModel, EmailStr, Field, conint, constr
+
+from app.shared.constants import (
+    EMAIL_DESC,
+    EMAIL_EXAMPLE,
+    EMAIL_MISSING_ERROR,
+    FIRST_NAME_DESC,
+    FIRST_NAME_EXAMPLE,
+    INVALID_EMAIL_ERROR,
+    LAST_NAME_DESC,
+    LAST_NAME_EXAMPLE,
+    LIMIT_DESC,
+    LIMIT_EXAMPLE,
+    OFFSET_DESC,
+    OFFSET_EXAMPLE,
+    PASSWORD_DESC,
+    PASSWORD_EXAMPLE,
+    PASSWORD_LENGTH_ERROR,
+    PASSWORD_MISSING_ERROR,
+    SEARCH_DESC,
+    SORT_DESC,
+    SORT_EXAMPLE,
+)
 
 
 class UserModel(BaseModel):

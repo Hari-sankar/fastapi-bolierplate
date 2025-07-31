@@ -75,3 +75,1147 @@
 [2025-07-17 11:14:58] [INFO] [root]  Database migration process complete.
 [2025-07-17 11:14:58] [INFO] [app.main] Application is starting...
 [2025-07-17 11:20:19] [INFO] [app.main] Application is shutting down...
+[2025-07-17 17:38:56] [INFO] [root] Starting database migration...
+[2025-07-17 17:38:56] [INFO] [root]  DB connection successful.
+[2025-07-17 17:38:56] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-17 17:38:59] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-17 17:38:59] [INFO] [root]  Database migration process complete.
+[2025-07-17 17:38:59] [INFO] [app.main] Application is starting...
+[2025-07-17 17:39:08] [INFO] [app.main] HTTP Request
+[2025-07-17 17:39:08] [WARNING] [app.main] HTTP Response
+[2025-07-17 17:39:08] [INFO] [app.main] HTTP Request
+[2025-07-17 17:39:08] [WARNING] [app.main] HTTP Response
+[2025-07-17 17:39:14] [INFO] [app.main] HTTP Request
+[2025-07-17 17:39:14] [INFO] [app.main] HTTP Response
+[2025-07-17 17:39:14] [INFO] [app.main] HTTP Request
+[2025-07-17 17:39:14] [INFO] [app.main] HTTP Response
+[2025-07-17 17:39:20] [INFO] [app.main] HTTP Request
+[2025-07-17 17:39:20] [INFO] [app.main] HTTP Response
+[2025-07-17 17:41:36] [INFO] [app.main] HTTP Request
+[2025-07-17 17:41:36] [INFO] [app.main] HTTP Response
+[2025-07-17 17:41:36] [INFO] [app.main] HTTP Request
+[2025-07-17 17:41:36] [INFO] [app.main] HTTP Response
+[2025-07-17 17:41:37] [INFO] [app.main] HTTP Request
+[2025-07-17 17:41:37] [INFO] [app.main] HTTP Response
+[2025-07-17 17:41:38] [INFO] [app.main] HTTP Request
+[2025-07-17 17:41:38] [INFO] [app.main] HTTP Response
+[2025-07-18 10:30:52] [INFO] [app.main] Application is shutting down...
+[2025-07-18 10:30:54] [INFO] [root] Starting database migration...
+[2025-07-18 10:30:54] [INFO] [root]  DB connection successful.
+[2025-07-18 10:30:54] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 10:30:56] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 10:30:56] [INFO] [root]  Database migration process complete.
+[2025-07-18 10:30:56] [INFO] [app.main] Application is starting...
+[2025-07-18 10:34:02] [INFO] [app.main] Application is shutting down...
+[2025-07-18 10:35:27] [INFO] [root] Starting database migration...
+[2025-07-18 10:35:27] [INFO] [root]  DB connection successful.
+[2025-07-18 10:35:27] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 10:35:28] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 10:35:28] [INFO] [root]  Database migration process complete.
+[2025-07-18 10:35:28] [INFO] [app.main] Application is starting...
+[2025-07-18 10:35:34] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:18:52] [INFO] [root] Starting database migration...
+[2025-07-18 11:18:52] [INFO] [root]  DB connection successful.
+[2025-07-18 11:18:52] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:18:54] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 11:18:54] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:18:54] [INFO] [app.main] Redis flushed successfully
+[2025-07-18 11:18:54] [INFO] [app.main] Application is starting...
+[2025-07-18 11:21:21] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:21:25] [INFO] [root] Starting database migration...
+[2025-07-18 11:21:25] [INFO] [root]  DB connection successful.
+[2025-07-18 11:21:25] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:21:26] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 11:21:26] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:21:26] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:21:26] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:21:26] [INFO] [app.main] Application is starting...
+[2025-07-18 11:24:46] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:24:48] [INFO] [root] Starting database migration...
+[2025-07-18 11:24:48] [INFO] [root]  DB connection successful.
+[2025-07-18 11:24:48] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:24:49] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:24:49] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:24:49] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:24:49] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:24:49] [INFO] [app.main] Application is starting...
+[2025-07-18 11:26:10] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:26:15] [INFO] [root] Starting database migration...
+[2025-07-18 11:26:15] [INFO] [root]  DB connection successful.
+[2025-07-18 11:26:15] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:26:16] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:26:16] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:26:16] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:26:16] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:26:16] [INFO] [app.main] Application is starting...
+[2025-07-18 11:26:26] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:26:28] [INFO] [root] Starting database migration...
+[2025-07-18 11:26:28] [INFO] [root]  DB connection successful.
+[2025-07-18 11:26:28] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:26:28] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:26:28] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:26:28] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:26:28] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:26:28] [INFO] [app.main] Application is starting...
+[2025-07-18 11:26:34] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:26:38] [INFO] [root] Starting database migration...
+[2025-07-18 11:26:38] [INFO] [root]  DB connection successful.
+[2025-07-18 11:26:38] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:26:39] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:26:39] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:26:39] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:26:39] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:26:39] [INFO] [app.main] Application is starting...
+[2025-07-18 11:27:30] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:27:31] [INFO] [root] Starting database migration...
+[2025-07-18 11:27:31] [INFO] [root]  DB connection successful.
+[2025-07-18 11:27:31] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:27:33] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 11:27:33] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:27:33] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:27:33] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:27:33] [INFO] [app.main] Application is starting...
+[2025-07-18 11:52:54] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:52:56] [INFO] [root] Starting database migration...
+[2025-07-18 11:52:56] [INFO] [root]  DB connection successful.
+[2025-07-18 11:52:56] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:52:57] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:52:57] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:52:57] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:52:57] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:52:57] [INFO] [app.main] Application is starting...
+[2025-07-18 11:53:04] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:53:05] [INFO] [root] Starting database migration...
+[2025-07-18 11:53:05] [INFO] [root]  DB connection successful.
+[2025-07-18 11:53:05] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:53:06] [ERROR] [root]  Alembic migration failed.
+[2025-07-18 11:53:06] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:53:06] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:53:06] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:53:06] [INFO] [app.main] Application is starting...
+[2025-07-18 11:54:58] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:54:59] [INFO] [root] Starting database migration...
+[2025-07-18 11:54:59] [INFO] [root]  DB connection successful.
+[2025-07-18 11:54:59] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:55:01] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 11:55:01] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:55:01] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:55:01] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:55:01] [INFO] [app.main] Application is starting...
+[2025-07-18 11:55:13] [INFO] [app.main] Application is shutting down...
+[2025-07-18 11:55:15] [INFO] [root] Starting database migration...
+[2025-07-18 11:55:15] [INFO] [root]  DB connection successful.
+[2025-07-18 11:55:15] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 11:55:17] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 11:55:17] [INFO] [root]  Database migration process complete.
+[2025-07-18 11:55:17] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 11:55:17] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 11:55:17] [INFO] [app.main] Application is starting...
+[2025-07-18 12:00:18] [INFO] [app.main] HTTP Request
+[2025-07-18 12:00:18] [INFO] [app.main] HTTP Response
+[2025-07-18 12:00:18] [INFO] [app.main] HTTP Request
+[2025-07-18 12:00:19] [INFO] [app.main] HTTP Response
+[2025-07-18 12:00:25] [INFO] [app.main] HTTP Request
+[2025-07-18 12:00:25] [INFO] [app.main] HTTP Response
+[2025-07-18 12:01:12] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:01:13] [INFO] [root] Starting database migration...
+[2025-07-18 12:01:14] [INFO] [root]  DB connection successful.
+[2025-07-18 12:01:14] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:01:15] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:01:15] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:01:15] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:01:15] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:01:15] [INFO] [app.main] Application is starting...
+[2025-07-18 12:04:51] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:04:53] [INFO] [root] Starting database migration...
+[2025-07-18 12:04:53] [INFO] [root]  DB connection successful.
+[2025-07-18 12:04:53] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:04:55] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:04:55] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:04:55] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:04:55] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:04:55] [INFO] [app.main] Application is starting...
+[2025-07-18 12:08:16] [INFO] [app.main] HTTP request-response
+[2025-07-18 12:12:25] [INFO] [app.main] HTTP request-response
+[2025-07-18 12:13:02] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:13:03] [INFO] [root] Starting database migration...
+[2025-07-18 12:13:03] [INFO] [root]  DB connection successful.
+[2025-07-18 12:13:03] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:13:05] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:13:05] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:13:05] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:13:05] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:13:05] [INFO] [app.main] Application is starting...
+[2025-07-18 12:13:30] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:13:32] [INFO] [root] Starting database migration...
+[2025-07-18 12:13:32] [INFO] [root]  DB connection successful.
+[2025-07-18 12:13:32] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:13:34] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:13:34] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:13:34] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:13:34] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:13:34] [INFO] [app.main] Application is starting...
+[2025-07-18 12:13:34] [INFO] [app.main] HTTP Request
+[2025-07-18 12:13:34] [INFO] [app.main] HTTP Response
+[2025-07-18 12:16:10] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:16:14] [INFO] [root] Starting database migration...
+[2025-07-18 12:16:14] [INFO] [root]  DB connection successful.
+[2025-07-18 12:16:14] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:16:16] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:16:16] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:16:16] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:16:16] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:16:16] [INFO] [app.main] Application is starting...
+[2025-07-18 12:27:43] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:27:45] [INFO] [uvicorn.error] Started server process [74539]
+[2025-07-18 12:27:45] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:27:45] [INFO] [root] Starting database migration...
+[2025-07-18 12:27:45] [INFO] [root]  DB connection successful.
+[2025-07-18 12:27:45] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:27:48] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:27:48] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:27:48] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:27:48] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:27:48] [INFO] [app.main] Application is starting...
+[2025-07-18 12:27:48] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:35:18] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 12:35:18] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 12:35:18] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:35:18] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 12:35:18] [INFO] [uvicorn.error] Finished server process [74539]
+[2025-07-18 12:35:20] [INFO] [uvicorn.error] Started server process [74793]
+[2025-07-18 12:35:20] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:35:20] [INFO] [root] Starting database migration...
+[2025-07-18 12:35:20] [INFO] [root]  DB connection successful.
+[2025-07-18 12:35:20] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:35:22] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:35:22] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:35:22] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:35:22] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:35:22] [INFO] [app.main] Application is starting...
+[2025-07-18 12:35:22] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:35:23] [INFO] [uvicorn.error] Started server process [74830]
+[2025-07-18 12:35:23] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:35:23] [INFO] [root] Starting database migration...
+[2025-07-18 12:35:23] [INFO] [root]  DB connection successful.
+[2025-07-18 12:35:23] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:35:25] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:35:25] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:35:25] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:35:25] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:35:25] [INFO] [app.main] Application is starting...
+[2025-07-18 12:35:25] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:36:11] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 12:36:12] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 12:36:12] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:36:12] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 12:36:12] [INFO] [uvicorn.error] Finished server process [74830]
+[2025-07-18 12:36:13] [INFO] [uvicorn.error] Started server process [74911]
+[2025-07-18 12:36:13] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:36:13] [INFO] [root] Starting database migration...
+[2025-07-18 12:36:13] [INFO] [root]  DB connection successful.
+[2025-07-18 12:36:13] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:36:15] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:36:15] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:36:15] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:36:15] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:36:15] [INFO] [app.main] Application is starting...
+[2025-07-18 12:36:15] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:38:49] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 12:38:49] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 12:38:49] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:38:49] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 12:38:49] [INFO] [uvicorn.error] Finished server process [74911]
+[2025-07-18 12:38:51] [INFO] [uvicorn.error] Started server process [75129]
+[2025-07-18 12:38:51] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:38:51] [INFO] [root] Starting database migration...
+[2025-07-18 12:38:51] [INFO] [root]  DB connection successful.
+[2025-07-18 12:38:51] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:38:53] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:38:53] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:38:53] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:38:53] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:38:53] [INFO] [app.main] Application is starting...
+[2025-07-18 12:38:53] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:39:04] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 12:39:04] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 12:39:04] [INFO] [app.main] Application is shutting down...
+[2025-07-18 12:39:04] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 12:39:04] [INFO] [uvicorn.error] Finished server process [75129]
+[2025-07-18 12:39:06] [INFO] [uvicorn.error] Started server process [75220]
+[2025-07-18 12:39:06] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 12:39:06] [INFO] [root] Starting database migration...
+[2025-07-18 12:39:06] [INFO] [root]  DB connection successful.
+[2025-07-18 12:39:06] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 12:39:08] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 12:39:08] [INFO] [root]  Database migration process complete.
+[2025-07-18 12:39:08] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 12:39:08] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 12:39:08] [INFO] [app.main] Application is starting...
+[2025-07-18 12:39:08] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 12:39:26] [INFO] [app.middleware] HTTP request
+[2025-07-18 12:39:26] [INFO] [uvicorn.access] 127.0.0.1:45678 - "GET /user?limit=1 HTTP/1.1" 200
+[2025-07-18 13:13:42] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 13:13:42] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 13:13:42] [INFO] [app.main] Application is shutting down...
+[2025-07-18 13:13:42] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 13:13:42] [INFO] [uvicorn.error] Finished server process [75220]
+[2025-07-18 13:13:45] [INFO] [uvicorn.error] Started server process [76536]
+[2025-07-18 13:13:45] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 13:13:45] [INFO] [root] Starting database migration...
+[2025-07-18 13:13:45] [INFO] [root]  DB connection successful.
+[2025-07-18 13:13:45] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 13:13:46] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 13:13:47] [INFO] [root]  Database migration process complete.
+[2025-07-18 13:13:47] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 13:13:47] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 13:13:47] [INFO] [app.main] Application is starting...
+[2025-07-18 13:13:47] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 13:13:48] [INFO] [uvicorn.error] Started server process [76574]
+[2025-07-18 13:13:48] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 13:13:48] [INFO] [root] Starting database migration...
+[2025-07-18 13:13:48] [INFO] [root]  DB connection successful.
+[2025-07-18 13:13:48] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 13:13:50] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 13:13:50] [INFO] [root]  Database migration process complete.
+[2025-07-18 13:13:50] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 13:13:50] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 13:13:50] [INFO] [app.main] Application is starting...
+[2025-07-18 13:13:50] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 13:14:50] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 13:14:50] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 13:14:50] [INFO] [app.main] Application is shutting down...
+[2025-07-18 13:14:50] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 13:14:50] [INFO] [uvicorn.error] Finished server process [76574]
+[2025-07-18 13:14:52] [INFO] [uvicorn.error] Started server process [76668]
+[2025-07-18 13:14:52] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-18 13:14:52] [INFO] [root] Starting database migration...
+[2025-07-18 13:14:52] [INFO] [root]  DB connection successful.
+[2025-07-18 13:14:52] [INFO] [root] Running Alembic migration via subprocess...
+[2025-07-18 13:14:53] [INFO] [root]  Migration SQL executed successfully.
+[2025-07-18 13:14:53] [INFO] [root]  Database migration process complete.
+[2025-07-18 13:14:53] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-18 13:14:53] [INFO] [app.main] Continuing without Redis...
+[2025-07-18 13:14:53] [INFO] [app.main] Application is starting...
+[2025-07-18 13:14:53] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-18 13:16:24] [INFO] [uvicorn.error] Shutting down
+[2025-07-18 13:16:25] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-18 13:16:25] [INFO] [app.main] Application is shutting down...
+[2025-07-18 13:16:25] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-18 13:16:25] [INFO] [uvicorn.error] Finished server process [76668]
+[2m2025-07-18T07:47:02.516689Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:47:02.627667Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:47:02.628050Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:47:04.233265Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:47:04.287790Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:47:04.288402Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:47:04.288747Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:47:04.289254Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:47:24.325445Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m
+[2m2025-07-18T07:47:54.202193Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-18T07:47:55.979621Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-18T07:47:56.089627Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-18T07:47:56.090126Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-18T07:47:57.818017Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-18T07:47:57.869367Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-18T07:47:57.869859Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-18T07:47:57.870078Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-18T07:47:57.870237Z"}
+{"event": "HTTP request", "logger": "app.middleware", "level": "info", "timestamp": "2025-07-18T07:48:03.194254Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-18T07:48:31.000385Z"}
+2025-07-18T13:24:43.339959+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+2025-07-18T13:26:14.345776+0530 WARNING logging:callHandlers HTTP client error
+{"text": "2025-07-18T13:26:37.689739+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.\n", "record": {"elapsed": {"repr": "0:00:03.323000", "seconds": 3.323}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "module": "__init__", "name": "logging", "process": {"id": 78182, "name": "SpawnProcess-7"}, "thread": {"id": 138046388430656, "name": "MainThread"}, "time": {"repr": "2025-07-18 13:26:37.689739+05:30", "timestamp": 1752825397.689739}}}
+{"text": "2025-07-18T13:26:45.641796+0530 WARNING logging:callHandlers HTTP client error\n", "record": {"elapsed": {"repr": "0:00:11.275057", "seconds": 11.275057}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "HTTP client error", "module": "__init__", "name": "logging", "process": {"id": 78182, "name": "SpawnProcess-7"}, "thread": {"id": 138046388430656, "name": "MainThread"}, "time": {"repr": "2025-07-18 13:26:45.641796+05:30", "timestamp": 1752825405.641796}}}
+[2m2025-07-18T07:57:07.503817Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:57:07.616223Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:57:07.616451Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:57:09.266007Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:57:09.321725Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-18T07:57:09.322157Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:57:09.322418Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:57:09.322568Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-18T07:57:09.328642Z[0m [[33m[1mwarning  [0m] [1mHTTP client error             [0m [[0m[1m[34mapp.middleware[0m][0m
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:14:26.004097Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:14:26.169114Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:14:26.169296Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:14:27.919291Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:14:28.023022Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-22T16:14:28.023642Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:14:28.023970Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:14:28.024214Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:08.582452Z"}
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:10.505168Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:10.617837Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:10.618019Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:12.506739Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:12.560555Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-22T16:16:12.563835Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:12.564072Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:12.564221Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:29.927806Z"}
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:31.722816Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:32.175920Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:32.176676Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:34.452876Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-22T16:16:34.521338Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-22T16:16:34.521957Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:34.522180Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:16:34.522303Z"}
+{"event": "HTTP request", "logger": "app.middleware", "level": "info", "timestamp": "2025-07-22T16:17:10.562811Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-22T16:36:47.788088Z"}
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:16:47.831467Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:16:47.955065Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:16:47.955352Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:16:49.591456Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:16:49.649639Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-23T04:16:49.650671Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:16:49.650877Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:16:49.651029Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:18:09.931032Z"}
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:18:12.054774Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:18:12.180717Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:18:12.180877Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:18:13.826949Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:18:13.886434Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-23T04:18:13.886841Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:18:13.887020Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:18:13.887147Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:19:16.362209Z"}
+{"text": "2025-07-23T09:49:20.793930+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.\n", "record": {"elapsed": {"repr": "0:00:04.033136", "seconds": 4.033136}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "module": "__init__", "name": "logging", "process": {"id": 117157, "name": "SpawnProcess-3"}, "thread": {"id": 125229481912128, "name": "MainThread"}, "time": {"repr": "2025-07-23 09:49:20.793930+05:30", "timestamp": 1753244360.79393}}}
+{"text": "2025-07-23T09:54:05.102713+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.\n", "record": {"elapsed": {"repr": "0:00:03.624877", "seconds": 3.624877}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "module": "__init__", "name": "logging", "process": {"id": 117436, "name": "SpawnProcess-4"}, "thread": {"id": 135197257197376, "name": "MainThread"}, "time": {"repr": "2025-07-23 09:54:05.102713+05:30", "timestamp": 1753244645.102713}}}
+{"text": "2025-07-23T09:55:34.679627+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.\n", "record": {"elapsed": {"repr": "0:00:03.640805", "seconds": 3.640805}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "module": "__init__", "name": "logging", "process": {"id": 117534, "name": "SpawnProcess-5"}, "thread": {"id": 127160954251072, "name": "MainThread"}, "time": {"repr": "2025-07-23 09:55:34.679627+05:30", "timestamp": 1753244734.679627}}}
+{"event": "Starting database migration...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:32:09.481866Z"}
+{"event": " DB connection successful.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:32:09.609916Z"}
+{"event": "Running Alembic migration via subprocess...", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:32:09.610249Z"}
+{"event": " Migration SQL executed successfully.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:32:11.355148Z"}
+{"event": " Database migration process complete.", "logger": "root", "level": "info", "timestamp": "2025-07-23T04:32:11.417207Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "logger": "app.main", "level": "warning", "timestamp": "2025-07-23T04:32:11.417788Z"}
+{"event": "Continuing without Redis...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:32:11.418083Z"}
+{"event": "Application is starting...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:32:11.418351Z"}
+{"event": "HTTP request", "logger": "app.middleware", "level": "info", "timestamp": "2025-07-23T04:32:22.362622Z"}
+{"event": "HTTP request", "logger": "app.middleware", "level": "info", "timestamp": "2025-07-23T04:32:40.491401Z"}
+{"event": "Application is shutting down...", "logger": "app.main", "level": "info", "timestamp": "2025-07-23T04:32:44.760749Z"}
+{"text": "2025-07-23T10:02:48.622064+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.\n", "record": {"elapsed": {"repr": "0:00:03.436450", "seconds": 3.43645}, "exception": null, "extra": {}, "file": {"name": "__init__.py", "path": "/home/harisankar_shaju/snap/code/199/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/logging/__init__.py"}, "function": "callHandlers", "level": {"icon": "⚠️", "name": "WARNING", "no": 30}, "line": 1762, "message": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "module": "__init__", "name": "logging", "process": {"id": 118883, "name": "SpawnProcess-2"}, "thread": {"id": 128105881954112, "name": "MainThread"}, "time": {"repr": "2025-07-23 10:02:48.622064+05:30", "timestamp": 1753245168.622064}}}
+[2m2025-07-23T04:33:55.186633Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:33:55.384528Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:33:55.384945Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:33:57.410288Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:33:57.466138Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:33:57.466539Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:33:57.466719Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:33:57.466866Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:34:05.547711Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m
+[2m2025-07-23T04:34:24.406179Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m
+[2m2025-07-23T04:34:43.776036Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+2025-07-23T10:04:47.862211+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2m2025-07-23T04:37:55.947558Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:37:56.225579Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:37:56.226304Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:37:56.885109Z[0m [[31m[1merror    [0m] [1m Alembic migration failed.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:37:56.899088Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:37:56.899588Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:37:56.899851Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:37:56.900059Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:38:40.228513Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:38:56.530690Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:38:56.662264Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:38:56.662936Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:38:57.193918Z[0m [[31m[1merror    [0m] [1m Alembic migration failed.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:38:57.202847Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:38:57.203243Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:38:57.203427Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:38:57.203578Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:39:03.434312Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:45:36.492632Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:45:36.605083Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:45:36.605412Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:45:37.164527Z[0m [[31m[1merror    [0m] [1m Alembic migration failed.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:45:37.177097Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T04:45:37.177617Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:45:37.177875Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:45:37.178078Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:46:24.037608Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+2025-07-23T10:16:30.756724+0530 ERROR logging:callHandlers  Alembic migration failed.
+2025-07-23T10:17:15.324991+0530 WARNING logging:callHandlers Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2m2025-07-23T04:47:41.431989Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:47:41.432254Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:47:41.432415Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T04:47:51.345729Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m
+[2m2025-07-23T04:50:01.276942Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2025-07-23 10:20:27] [INFO] [uvicorn.error] Started server process [120999]
+[2025-07-23 10:20:27] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-23 10:20:27] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-23 10:20:27] [INFO] [app.main] Continuing without Redis...
+[2025-07-23 10:20:27] [INFO] [app.main] Application is starting...
+[2025-07-23 10:20:27] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-23 10:20:34] [INFO] [app.middleware] HTTP request
+[2025-07-23 10:20:34] [INFO] [uvicorn.access] 127.0.0.1:37060 - "GET /user HTTP/1.1" 200
+[2025-07-23 10:20:49] [INFO] [app.middleware] HTTP request
+[2025-07-23 10:20:49] [INFO] [uvicorn.access] 127.0.0.1:47772 - "GET /user HTTP/1.1" 200
+[2025-07-23 10:21:05] [INFO] [app.middleware] HTTP request
+[2025-07-23 10:21:05] [INFO] [uvicorn.access] 127.0.0.1:38102 - "GET /user?sort=ASC HTTP/1.1" 200
+[2025-07-23 10:29:05] [INFO] [uvicorn.error] Shutting down
+[2025-07-23 10:29:05] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-23 10:29:05] [INFO] [app.main] Application is shutting down...
+[2025-07-23 10:29:05] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-23 10:29:05] [INFO] [uvicorn.error] Finished server process [120999]
+[2025-07-23 10:29:07] [INFO] [uvicorn.error] Started server process [121582]
+[2025-07-23 10:29:07] [INFO] [uvicorn.error] Waiting for application startup.
+[2025-07-23 10:29:07] [WARNING] [app.main] Redis not available: Error 111 connecting to localhost:6379. Connection refused.
+[2025-07-23 10:29:07] [INFO] [app.main] Continuing without Redis...
+[2025-07-23 10:29:07] [INFO] [app.main] Application is starting...
+[2025-07-23 10:29:07] [INFO] [uvicorn.error] Application startup complete.
+[2025-07-23 11:35:37] [INFO] [uvicorn.error] Shutting down
+[2025-07-23 11:35:38] [INFO] [uvicorn.error] Waiting for application shutdown.
+[2025-07-23 11:35:38] [INFO] [app.main] Application is shutting down...
+[2025-07-23 11:35:38] [INFO] [uvicorn.error] Application shutdown complete.
+[2025-07-23 11:35:38] [INFO] [uvicorn.error] Finished server process [121582]
+[2m2025-07-23T06:05:42.816594Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:05:42.816973Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:05:42.817162Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:05:51.218442Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': 'sort=ASC', 'status_code': 200, 'duration_ms': 286.13, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:05:51.220307Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:58212 - "GET /user?sort=ASC HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:06:32.768292Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 182.89, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:06:32.769396Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:33654 - "POST /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:07:24.883758Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:07:26.823111Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:07:26.823431Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:07:26.823605Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:08:07.222922Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "level": "warning", "logger": "app.main", "timestamp": "2025-07-23T06:08:32.375282Z"}
+{"event": "Continuing without Redis...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:08:32.375528Z"}
+{"event": "Application is starting...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:08:32.375687Z"}
+{"extra": {"method": "GET", "path": "/user", "query": "sort=ASC", "status_code": 200, "duration_ms": 176.3, "client_ip": "127.0.0.1"}, "event": "HTTP request", "level": "info", "logger": "app.middleware", "timestamp": "2025-07-23T06:08:32.555682Z"}
+{"event": "127.0.0.1:42902 - \"GET /user?sort=ASC HTTP/1.1\" 200", "level": "info", "logger": "uvicorn.access", "timestamp": "2025-07-23T06:08:32.557292Z"}
+{"event": "Application is shutting down...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:12:06.061820Z"}
+[2m2025-07-23T06:12:08.299063Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:12:08.299336Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:12:08.299480Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:12:17.015015Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': 'sort=ASC', 'status_code': 200, 'duration_ms': 187.53, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:12:17.016050Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:40638 - "GET /user?sort=ASC HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:12:55.729533Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "level": "warning", "logger": "app.main", "timestamp": "2025-07-23T06:12:57.647456Z"}
+{"event": "Continuing without Redis...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:12:57.647741Z"}
+{"event": "Application is starting...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:12:57.647903Z"}
+{"event": "Application is shutting down...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:17:33.272125Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "level": "warning", "logger": "app.main", "timestamp": "2025-07-23T06:18:52.460299Z"}
+{"event": "Continuing without Redis...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:18:52.460561Z"}
+{"event": "Application is starting...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:18:52.460691Z"}
+{"event": "Application is shutting down...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:20:56.143773Z"}
+{"event": "Redis not available: Error 111 connecting to localhost:6379. Connection refused.", "level": "warning", "logger": "app.main", "timestamp": "2025-07-23T06:20:58.861264Z"}
+{"event": "Continuing without Redis...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:20:58.861504Z"}
+{"event": "Application is starting...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:20:58.861676Z"}
+{"event": "Application is shutting down...", "level": "info", "logger": "app.main", "timestamp": "2025-07-23T06:21:17.645871Z"}
+[2m2025-07-23T06:21:20.757321Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:21:20.757578Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:21:20.757718Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:21:31.153729Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': 'sort=ASC', 'status_code': 200, 'duration_ms': 347.04, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:21:31.155429Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:56480 - "GET /user?sort=ASC HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:22:06.756330Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:44:31.764875Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:44:31.765153Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:44:31.765309Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:45:39.137257Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:45:41.379236Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:45:41.379554Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:45:41.379708Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:46:10.525087Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:46:12.940273Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:46:12.940599Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:46:12.940801Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:47:12.049869Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:47:14.051028Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:47:14.051288Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:47:14.051437Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:47:47.412414Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/health', 'query': '', 'status_code': 200, 'duration_ms': 164.06, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:47:47.414000Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:47122 - "GET /health HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:49:02.845620Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:49:04.879728Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:49:04.880025Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:49:04.880218Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:49:12.683176Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/health', 'query': '', 'status_code': 200, 'duration_ms': 282.25, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T06:49:12.684799Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:58456 - "GET /health HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T06:50:12.021863Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:57:29.824843Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:57:29.825121Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T06:57:29.825273Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:02:59.272759Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:03:01.230991Z[0m [[33m[1mwarning  [0m] [1mRedis not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:03:01.231245Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis...   [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:03:01.231415Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:08:36.674286Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:08:39.416929Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:08:39.417195Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T07:08:39.417365Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:39:24.039812Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:48:38.684919Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:48:38.685200Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:48:38.685390Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:01.590608Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:03.480414Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:03.480778Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:03.480959Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:21.461547Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:28.763102Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:28.763378Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:28.763533Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:44.130901Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:46.018894Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:46.019166Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T08:54:46.019312Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T11:45:21.451880Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/docs', 'query': '', 'status_code': 200, 'duration_ms': 0.42, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T11:45:21.452486Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:58320 - "GET /docs HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T11:45:21.662128Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/openapi.json', 'query': '', 'status_code': 200, 'duration_ms': 6.3, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T11:45:21.662497Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:58320 - "GET /openapi.json HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T11:45:27.009273Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 198.73, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T11:45:27.011414Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:58330 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:12:51.736100Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:12:54.362272Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:12:54.362585Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:12:54.362758Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:14:35.206550Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:14:37.018577Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:14:37.018850Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:14:37.019001Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:15:25.615594Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:18:33.566007Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:18:33.566279Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:18:33.566438Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:18:50.646113Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/docs', 'query': '', 'status_code': 200, 'duration_ms': 0.89, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:18:50.647051Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:51816 - "GET /docs HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:18:50.845515Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/openapi.json', 'query': '', 'status_code': 200, 'duration_ms': 7.6, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:18:50.846507Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:51816 - "GET /openapi.json HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:02.292779Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 171.71, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:19:02.295124Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:51826 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:13.939187Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 165.84, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:19:13.940684Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:43848 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:25.700225Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:19:30.369619Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:19:30.369895Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:19:30.370037Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:19:33.410243Z[0m [[33m[1mwarning  [0m] [1mHTTP client error             [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/', 'query': '', 'status_code': 404, 'duration_ms': 0.69, 'client_ip': '127.0.0.1', 'request_body': ''}[0m
+[2m2025-07-23T12:19:33.410989Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:56332 - "GET / HTTP/1.1" 404[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:33.476411Z[0m [[33m[1mwarning  [0m] [1mHTTP client error             [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/favicon.ico', 'query': '', 'status_code': 404, 'duration_ms': 0.36, 'client_ip': '127.0.0.1', 'request_body': ''}[0m
+[2m2025-07-23T12:19:33.476960Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:56332 - "GET /favicon.ico HTTP/1.1" 404[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:39.644147Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/docs', 'query': '', 'status_code': 200, 'duration_ms': 0.23, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:19:39.644646Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:56344 - "GET /docs HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:39.759309Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/openapi.json', 'query': '', 'status_code': 200, 'duration_ms': 6.48, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:19:39.759674Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:56344 - "GET /openapi.json HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:19:49.639940Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 169.64, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:19:49.641383Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:44580 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:20:07.723265Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 169.11, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:20:07.724854Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:33226 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:20:21.842724Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': 'limit=1', 'status_code': 200, 'duration_ms': 173.67, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:20:21.844486Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:44200 - "GET /user?limit=1 HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:20:51.431328Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:20:54.027307Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:20:54.027642Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:20:54.027811Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:21:37.235000Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:21:39.716366Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T12:21:39.832136Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T12:21:39.832509Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T12:21:41.713302Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T12:21:41.768632Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-23T12:21:41.769730Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:21:41.769933Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:21:41.770114Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-23T12:21:52.680546Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/docs', 'query': '', 'status_code': 200, 'duration_ms': 0.34, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:21:52.681047Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:39518 - "GET /docs HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:21:52.777800Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/openapi.json', 'query': '', 'status_code': 200, 'duration_ms': 6.77, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:21:52.778247Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:39518 - "GET /openapi.json HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:21:58.215435Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/user', 'query': '', 'status_code': 200, 'duration_ms': 168.94, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-23T12:21:58.215829Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:39532 - "GET /user HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:22:05.192519Z[0m [[31m[1merror    [0m] [1mUnhandled server error        [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'duration_ms': 6.69, 'client_ip': '127.0.0.1'}[0m
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/app/middleware/logging_midleware.py", line 34, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 156, in call_next
+    raise app_exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/routes/auth_routes.py", line 14, in signup
+    return await auth_service.signup(userData, background_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: signup() takes 1 positional argument but 2 were given
+[2m2025-07-23T12:22:05.202741Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:39278 - "POST /auth/signup HTTP/1.1" 500[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-23T12:27:21.367439Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:51.352547Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:51.463045Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:51.463588Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:53.126541Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:53.180974Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:53.182025Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:53.182202Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:53.182342Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:55.079506Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:55.187209Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:55.187380Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:57.517656Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:57.571789Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:36:57.572934Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:57.573149Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:57.573313Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:36:58.458748Z[0m [[31m[1merror    [0m] [1mUnhandled server error        [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'duration_ms': 6.58, 'client_ip': '127.0.0.1'}[0m
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/app/middleware/logging_midleware.py", line 34, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 156, in call_next
+    raise app_exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/routes/auth_routes.py", line 14, in signup
+    return await auth_service.signup(userData, background_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: signup() takes 1 positional argument but 2 were given
+[2m2025-07-24T03:36:58.461409Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:44186 - "POST /auth/signup HTTP/1.1" 500[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T03:38:04.820666Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:38:06.759203Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:38:06.862936Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:38:06.863115Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:38:08.582726Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:38:08.636004Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:38:08.637093Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:38:08.637270Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:38:08.637412Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:39:45.034860Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:39:47.375879Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:39:47.483584Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:39:47.484054Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:39:49.126984Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:39:49.178817Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:39:49.180233Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:39:49.180483Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:39:49.180681Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:40:12.466779Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:40:14.946390Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:40:15.133990Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:40:15.134672Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:40:17.337767Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:40:17.428920Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:40:17.430165Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:40:17.430384Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:40:17.430527Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:40:17.733901Z[0m [[31m[1merror    [0m] [1mUnhandled server error        [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'duration_ms': 298.92, 'client_ip': '127.0.0.1'}[0m
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/app/middleware/logging_midleware.py", line 34, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 156, in call_next
+    raise app_exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/routes/auth_routes.py", line 14, in signup
+    return await auth_service.signup(userData)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/services/auth_service.py", line 41, in signup
+    logger.error("error creating user ",str(e))
+    ^^^^^^^^^^^^
+AttributeError: module 'fastapi.logger' has no attribute 'error'
+[2m2025-07-24T03:40:17.746095Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:42880 - "POST /auth/signup HTTP/1.1" 500[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T03:40:19.829196Z[0m [[31m[1merror    [0m] [1mUnhandled server error        [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'duration_ms': 187.05, 'client_ip': '127.0.0.1'}[0m
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/app/middleware/logging_midleware.py", line 34, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 156, in call_next
+    raise app_exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/routes/auth_routes.py", line 14, in signup
+    return await auth_service.signup(userData)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/services/auth_service.py", line 41, in signup
+    logger.error("error creating user ",str(e))
+    ^^^^^^^^^^^^
+AttributeError: module 'fastapi.logger' has no attribute 'error'
+[2m2025-07-24T03:40:19.834975Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:42880 - "POST /auth/signup HTTP/1.1" 500[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T03:41:05.014125Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:41:07.195653Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:41:07.342506Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:41:07.343282Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:41:09.198809Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:41:09.257450Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:41:09.259430Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:41:09.259644Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:41:09.259792Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:42:14.306629Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:42:17.265665Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:42:17.510402Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:42:17.511002Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:42:20.896277Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:42:20.986651Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T03:42:20.990665Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:42:20.991446Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T03:42:20.992075Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:14:26.614178Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 174.26, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T04:14:26.615932Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:52862 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T04:14:44.293829Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:14:46.126559Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:14:46.231507Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:14:46.231753Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:14:47.890956Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:14:47.944371Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:14:47.945676Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:14:47.945884Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:14:47.946021Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:15:01.202734Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:15:03.953643Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:15:04.256650Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:15:04.257480Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:15:06.248298Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:15:06.306475Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:15:06.308525Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:15:06.308857Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:15:06.309091Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:15:09.784737Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 438.98, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T04:15:09.786284Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:44320 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T04:16:40.590957Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:16:42.527408Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:16:42.635193Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:16:42.635382Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:16:44.417322Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:16:44.472271Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:16:44.473349Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:16:44.473544Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:16:44.473725Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:30:21.214315Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:30:23.438286Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:30:23.585493Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:30:23.585693Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:30:26.441268Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:30:26.532676Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:30:26.533886Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:30:26.534121Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:30:26.534307Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:32:56.583094Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:32:58.873176Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:32:59.025841Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:32:59.026536Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:00.897013Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:00.965463Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:00.966581Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:00.966805Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:00.966949Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:05.358072Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 171.16, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T04:33:05.358508Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:52334 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T04:33:49.463126Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:51.431846Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:51.550609Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:51.550968Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:54.396570Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:54.487348Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:54.488429Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:54.488614Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:54.488785Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:55.492568Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:33:58.505681Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:58.623430Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:33:58.623750Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:34:00.319515Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:34:00.380967Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:34:00.382013Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:34:00.382247Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:34:00.382436Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:34:02.054170Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 184.54, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T04:34:02.055470Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:45824 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T04:35:15.045487Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:35:17.049364Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:35:17.156894Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:35:17.157039Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:35:18.947559Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:35:19.002566Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T04:35:19.003819Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:35:19.004082Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:35:19.004363Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T04:35:19.184065Z[0m [[31m[1merror    [0m] [1mUnhandled server error        [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'duration_ms': 174.78, 'client_ip': '127.0.0.1'}[0m
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/harisankar_shaju/Documents/FastAPI/app/middleware/logging_midleware.py", line 34, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 156, in call_next
+    raise app_exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/routes/auth_routes.py", line 14, in signup
+    return await auth_service.signup(userData)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/app/services/auth_service.py", line 42, in signup
+    logger.error("Error creating new user :", str(e))
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/structlog/stdlib.py", line 222, in error
+    return self._proxy_to_logger("error", event, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/structlog/stdlib.py", line 272, in _proxy_to_logger
+    return super()._proxy_to_logger(method_name, event=event, **event_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/structlog/_base.py", line 222, in _proxy_to_logger
+    args, kw = self._process_event(method_name, event, event_kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/structlog/_base.py", line 173, in _process_event
+    event_dict = proc(self._logger, method_name, event_dict)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/harisankar_shaju/Documents/FastAPI/.venv/lib/python3.12/site-packages/structlog/stdlib.py", line 761, in __call__
+    event_dict["event"] %= args
+TypeError: not all arguments converted during string formatting
+[2m2025-07-24T04:35:19.196081Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:54082 - "POST /auth/signup HTTP/1.1" 500[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T05:11:09.578987Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T05:11:11.930651Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T05:11:12.153494Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T05:11:12.154394Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T05:11:14.079761Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T05:11:14.136429Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T05:11:14.137889Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T05:11:14.138168Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T05:11:14.138648Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T05:11:20.661066Z[0m [[31m[1merror    [0m] [1mError creating new user       [0m [[0m[1m[34mapp.services.auth_service[0m][0m [36merror[0m=[35m'409: User Already Exists'[0m
+[2m2025-07-24T05:11:20.718601Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 176.53, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T05:11:20.720110Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:41936 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T05:11:42.255372Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 518.94, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T05:11:42.257091Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:54330 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T05:15:18.498022Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:04:38.192924Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:04:38.311537Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:04:38.311756Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:04:41.499377Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:04:41.630293Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:04:41.637384Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:04:41.637654Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:04:41.637889Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:37:02.557227Z[0m [[31m[1merror    [0m] [1mError creating new user       [0m [[0m[1m[34mapp.services.auth_service[0m][0m [36merror[0m=[35m'409: User Already Exists'[0m
+[2m2025-07-24T10:37:02.620990Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'POST', 'path': '/auth/signup', 'query': '', 'status_code': 200, 'duration_ms': 260.83, 'client_ip': '172.19.0.1'}[0m
+[2m2025-07-24T10:37:02.621586Z[0m [[32m[1minfo     [0m] [1m172.19.0.1:59668 - "POST /auth/signup HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T10:37:15.484811Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:55:15.814984Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:55:15.932618Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:55:15.933367Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:55:18.549870Z[0m [[32m[1minfo     [0m] [1m Migration SQL executed successfully.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:55:18.607597Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-24T10:55:18.611979Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:55:18.612192Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:55:18.612364Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-24T10:55:35.672320Z[0m [[33m[1mwarning  [0m] [1mHTTP client error             [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/', 'query': '', 'status_code': 404, 'duration_ms': 0.61, 'client_ip': '127.0.0.1', 'request_body': ''}[0m
+[2m2025-07-24T10:55:35.672875Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:38134 - "GET / HTTP/1.1" 404[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T10:55:35.730420Z[0m [[33m[1mwarning  [0m] [1mHTTP client error             [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/favicon.ico', 'query': '', 'status_code': 404, 'duration_ms': 0.33, 'client_ip': '127.0.0.1', 'request_body': ''}[0m
+[2m2025-07-24T10:55:35.730982Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:38134 - "GET /favicon.ico HTTP/1.1" 404[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T10:55:39.728335Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/docs', 'query': '', 'status_code': 200, 'duration_ms': 0.91, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T10:55:39.729957Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:38134 - "GET /docs HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T10:55:39.864130Z[0m [[32m[1minfo     [0m] [1mHTTP request                  [0m [[0m[1m[34mapp.middleware[0m][0m [36mextra[0m=[35m{'method': 'GET', 'path': '/openapi.json', 'query': '', 'status_code': 200, 'duration_ms': 15.97, 'client_ip': '127.0.0.1'}[0m
+[2m2025-07-24T10:55:39.864552Z[0m [[32m[1minfo     [0m] [1m127.0.0.1:38134 - "GET /openapi.json HTTP/1.1" 200[0m [[0m[1m[34muvicorn.access[0m][0m
+[2m2025-07-24T10:57:26.674686Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-25T06:25:24.577333Z[0m [[32m[1minfo     [0m] [1mStarting database migration...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-25T06:25:24.733572Z[0m [[32m[1minfo     [0m] [1m DB connection successful.    [0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-25T06:25:24.733731Z[0m [[32m[1minfo     [0m] [1mRunning Alembic migration via subprocess...[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-25T06:25:24.830118Z[0m [[31m[1merror    [0m] [1m An error occurred during migration: [Errno 2] No such file or directory: 'alembic'[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-25T06:25:24.830576Z[0m [[32m[1minfo     [0m] [1m Database migration process complete.[0m [[0m[1m[34mroot[0m][0m
+[2m2025-07-25T06:25:24.836112Z[0m [[33m[1mwarning  [0m] [1mRedis server not available: Error 111 connecting to localhost:6379. Connection refused.[0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-25T06:25:24.836607Z[0m [[32m[1minfo     [0m] [1mContinuing without Redis ...  [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-25T06:25:24.836954Z[0m [[32m[1minfo     [0m] [1mApplication is starting...    [0m [[0m[1m[34mapp.main[0m][0m
+[2m2025-07-25T06:25:26.045867Z[0m [[32m[1minfo     [0m] [1mApplication is shutting down...[0m [[0m[1m[34mapp.main[0m][0m

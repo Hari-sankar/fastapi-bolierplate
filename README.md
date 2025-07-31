@@ -23,7 +23,6 @@ A robust production level backend application built using FastAPI.
 - Pyjwt
 - Bcrypt
 - Python-dotenv
-- Resend (Optional)
 
 ## Setup & Installation
 

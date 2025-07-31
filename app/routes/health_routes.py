@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+
 from app.db.session import get_db
 from app.schemas.response import BaseResponse, format_response
 
@@ -18,6 +19,6 @@ def health_check():
     try:
         with get_db() as db:
             db.execute("SELECT 1")
-    except Exception as e:
+    except Exception:
         raise HTTPException(status_code=400, detail="Health Check - DataBase Connection Failed")
     return format_response(200, "Health Check - Success")

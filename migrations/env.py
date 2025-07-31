@@ -1,17 +1,16 @@
 import os
-
 from logging.config import fileConfig
 
-from sqlalchemy import engine_from_config
-from sqlalchemy import pool
 from alembic import context
 from dotenv import load_dotenv
+from sqlalchemy import engine_from_config, pool
 
 from app.db.models import Base
 
-
 # Load env variables
 load_dotenv()
+
+#Load DB URL
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 # this is the Alembic Config object, which provides

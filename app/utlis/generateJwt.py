@@ -1,6 +1,6 @@
-import jwt
 import datetime
-from typing import Optional, Dict
+
+import jwt
 from fastapi import HTTPException
 
 SECRET_KEY = "your-secret-key"
@@ -11,7 +11,7 @@ def create_jwt_token(data: dict):
     token = jwt.encode({"exp": expiration, **data}, SECRET_KEY, algorithm=ALGORITHM)
     return token
 
-def verify_jwt_token(token: str) -> Optional[Dict]:
+def verify_jwt_token(token: str) -> dict | None:
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         return payload

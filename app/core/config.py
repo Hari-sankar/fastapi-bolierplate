@@ -1,6 +1,6 @@
-from pydantic_settings import BaseSettings
-from typing import List
 from pydantic import Field
+from pydantic_settings import BaseSettings
+
 
 class Settings(BaseSettings):
     # App Settings
@@ -8,7 +8,6 @@ class Settings(BaseSettings):
     APP_ENV: str = "production"
     DEBUG: bool = False
     STRUCTURED_LOGGING:bool= True
-    ALLOWED_ORIGINS: List[str] = Field(default=["*"], alias="ALLOWED_ORIGINS")
 
     # Server Settings
     HOST: str = "0.0.0.0"
@@ -24,23 +23,26 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     MIGRATION:bool
 
-    # Email
-    EMAIL_HOST: str
-    EMAIL_PORT: int
-    EMAIL_USER: str
-    EMAIL_PASSWORD: str
+    # CORS 
+    CORS_METHOD : list[str] = Field(default=["*"], alias="CORS_METHOD") 
+    CORS_ORIGIN : list[str] = Field(default=["*"], alias="CORS_ORIGIN") 
+    CORS_HEADER : list[str] = Field(default=["*"], alias="CORS_HEADER") 
+
 
     # Logging
     LOG_LEVEL: str = "info"
     LOG_FILE: str = "logs/app.log"
+    SAVE_LOG: bool
+
 
     # Redis
-    REDIS_URL: str = "redis://localhost:6379/0"
+    REDIS_HOST : str
+    REDIS_PORT : str
+    REDIS_DB  : str
 
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
         case_sensitive = True
-
 
 settings = Settings()

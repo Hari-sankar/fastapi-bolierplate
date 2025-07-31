@@ -1,9 +1,12 @@
 import json
+
 from fastapi import HTTPException
+
 from app.db.session import get_db
-from app.schemas.user import *
-from app.schemas.response import format_response
 from app.redis.redis_instance import r
+from app.schemas.response import format_response
+from app.schemas.user import *
+
 
 def list_users(query_params: UserQueryParams):
     with get_db() as cursor:
@@ -23,9 +26,9 @@ def list_users(query_params: UserQueryParams):
         if conditions:
             query += " WHERE " + " AND ".join(conditions)
             
-        if sort and sort.lower() == 'asc':
+        if sort and sort.lower() == "asc":
             query += " ORDER BY first_name ASC"
-        elif sort and sort.lower() == 'desc':
+        elif sort and sort.lower() == "desc":
             query += " ORDER BY first_name DESC"
         
         if limit:
@@ -40,7 +43,6 @@ def list_users(query_params: UserQueryParams):
             cursor.execute(query, params)
             users = cursor.fetchall()
             users_data = [UserModel(**user) for user in users]
-            print(users_data)
         except Exception as e:
             return format_response(500, str(e))
         return format_response(200, "Users fetched Successfully", users_data)
@@ -59,7 +61,7 @@ def read_user(user_id: int):
             
             # Convert tuple to dictionary
             column_names = [desc[0] for desc in cursor.description]
-            user = dict(zip(column_names, user_row))
+            user = dict(zip(column_names, user_row, strict=False))
             
             r.set(f"user:{user_id}", json.dumps(user))
         except Exception as error:
